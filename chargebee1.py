@@ -42,7 +42,10 @@ lstDeals = ['First_Name','Last_Name','Email','Phone','Organization']
 
 #print("Reading company names map")
 
-chargebee.configure("test_wKIlCtk29ynbkoQkcmkDcdRXSXYz1gb40","fishburners-sydney-test")
+#chargebee.configure("test_wKIlCtk29ynbkoQkcmkDcdRXSXYz1gb40","fishburners-sydney-test")
+#chargebee.configure("live_ll1kclGNU12pqEiVZRU5E2ViK306Rdcdl","fishburners-sydney")
+#chargebee.configure("live_xSJ9NmwmKFHrZTIB2a2HY2gs0gcbFRah","fishburners")
+chargebee.configure("live_3j6ksVW4Hcu0CCU4quMcXnf778FortQXD","fishburners-virtual")
 
 entries = chargebee.Customer.list({
 	"Customer_Portal_Status[is]" : "Active"
